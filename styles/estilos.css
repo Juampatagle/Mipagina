@@ -1,0 +1,138 @@
+
+
+.navbar{
+    background-color: rgb(207, 207, 207);
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    padding-right: 30px;
+}
+
+.nav-link{
+    margin-right: 30px;
+}
+
+
+
+
+.parrafo1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sobre-mi{
+    font-size:50px;
+    border-bottom: 2px solid black;
+    color: rgb(161, 0, 161);
+}
+
+#tecnologias {
+    z-index: 111111;
+}
+
+#html {
+    width: 92%;
+}
+
+#css {
+    width: 86%;
+}
+
+#javascript {
+    width: 66%;
+}
+
+#php {
+    width: 15%;
+}
+
+#react {
+    width: 10%;
+}
+
+#bootstrap {
+    width: 65%;
+}
+
+#photoshop {
+    width: 77%;
+}
+
+#MySQL {
+    width: 20%;
+}
+
+.contenedor-trabajo {
+    position: relative;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.imagen-trabajo {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 4px;
+}
+
+.image__overlay--primary {
+    background: rgb(161, 0, 161);
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+#DG {
+    background-color: #006633;
+}
+
+#JPG {
+    background-color: #28857A;
+}
+
+#disco {
+    background-color: black;
+}
+
+#contacto {
+    background-color: rgb(207, 207, 207);
+}
+
+#contacto svg {
+    color: black;
+    width: 45px;
+    height: 45px;
+}
+
+#proyectos {
+    background-color: rgb(207, 207, 207);
+}
+
